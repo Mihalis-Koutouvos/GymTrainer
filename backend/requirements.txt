@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+numpy
+pydantic
+sqlalchemy
+psycopg2-binary
+langchain
+chromadb
+openai
+pypdf
+python-multipart
