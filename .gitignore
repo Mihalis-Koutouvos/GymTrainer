@@ -1,81 +1,83 @@
-# macOS
+#macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Icon files
+#Icon files
 Icon?
 
-# Thumbnails
+#Thumbnails
 ._*
 
-# Spotlight
+#Spotlight
 .Spotlight-V100
 .Trashes
 
-# Files that might appear on network drives
+#Files that might appear on network drives
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
 
-# VS Code
+#VS Code
 .vscode/
 
-# Python
+#Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 
-# Virtual environments
+#Virtual environments
 venv/
 .env/
 .env
+.venv
 
-# Distribution / packaging
+#Distribution / packaging
 build/
 dist/
 *.egg-info/
 
-# Jupyter
+#Jupyter
 .ipynb_checkpoints/
 
-# Node
+#Node
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build output
+#Build output
 dist/
 build/
 
-# Environment files
+#Environment files
 .env
 .env.local
 .env.*.local
+.env/
 
-# Logs
+#Logs
 *.log
 
-# Temp
+#Temp
 tmp/
 temp/
 
-# Data
+#Data
 data/
 datasets/
 
-# Model weights
+#Model weights
 models/
 *.pt
 *.pth
 *.bin
 *.ckpt
 
-# Vector DB
+#Vector DB
 chroma/
 faiss_index/
 
@@ -84,19 +86,21 @@ faiss_index/
 # macOS
 .DS_Store
 
-# VSCode
+#VSCode
 .vscode/
 
-# Python
+#Python
 __pycache__/
 *.pyc
 venv/
 .env
 
-# Node
+#Node
 node_modules/
 dist/
 build/
 
-# Logs
+#Logs
 *.log
+
+data/
